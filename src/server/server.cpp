@@ -12,7 +12,6 @@ void server::start_server() noexcept {
 }
 
 void server::add_user(uint16_t port, boost::asio::ip::tcp::socket& socket){
-    std::cout << "adding user\n";
     online_users_.insert({ port, user_connection_info("anom_username", std::make_unique<shriller::netv2::connection>(
             shriller::netv2::owner::server,
             std::move(socket),
