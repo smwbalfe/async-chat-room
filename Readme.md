@@ -42,15 +42,3 @@ Both server and client use a set of custom classes for managing connections, inc
 
 - **Start the Server**: `./server` (You may need to navigate to the server's build directory)
 - **Launch a Client**: `./client` (Navigate to the client's build directory)
-
-## Contributing
-
-We welcome contributions to the Async Chat Room project! Whether it's adding new features, fixing bugs, or improving documentation, your help is appreciated. Please read through the CONTRIBUTING.md file for guidelines on how to make a contribution.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
----
-
-This README provides a starting point for documenting the Async Chat Room project. Depending on the project's evolution, it may be necessary to update sections to reflect new features or changes.
